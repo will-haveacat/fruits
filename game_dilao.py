@@ -1,3 +1,10 @@
+'''
+运行后，按下空格键开始游戏，键盘的上下左右键操作左上方人物的移动
+右下方的人物，表示终点
+人物在移动过程中，如果碰到了怪物或者子弹（没错，在飞的小东西就是子弹），就会扣分
+左上角的score是得分
+只要到达终点，就会显示“YOU WIN”，此时，等待一会，界面自动关闭
+'''
 import pygame as pg
 from time import sleep
 from math import atan, sin, cos
